@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcg">
+
+    <LinearLayout
+        android:id="@+id/homeContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="Welcome to My App!"
+            android:textColor="#E5E9ED"
+            android:textSize="29sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="Explore the features of My App"
+            android:textColor="#E5E9ED"
+            android:textSize="18sp" />
+
+        <!-- Add other content or features here -->
+
+        <Button
+            android:id="@+id/buttonFeature1"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#058EFB"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Home"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonFeature2"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#058EFB"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="About us"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonFeature3"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#058EFB"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="Explore"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
